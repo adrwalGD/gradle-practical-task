@@ -63,7 +63,6 @@ dependencies {
   checkstyle "com.puppycrawl.tools:checkstyle:${checkstyleVersion}"
 }
 
-
 tasks.named('test') {
   useJUnitPlatform()
 }
